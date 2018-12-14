@@ -1,0 +1,187 @@
+body {
+    margin:0;
+    padding: 0;
+    background: #36465D;
+}
+.container {
+    background: #36465D;
+    width: 99%;
+    height: 100%;
+    display: grid;
+    grid-template:54px 35px 2000px;
+}
+.header {
+    
+    height: 54px;
+    width: 100%;
+    display: flex;
+    border-bottom: 1px solid hsl(0, 0%, 40%);
+   
+}
+.left{
+    display: flex;
+     flex-direction: row;
+     justify-content: flex-start;
+     align-items: center;
+ }
+ .tumbllogo{
+     width: 50px;
+     height: 50px;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+ } 
+ .fab {
+     font-size: 45px;
+     color: white;
+ }
+ .mid-section {
+    flex-grow: 3;
+     display: flex;
+     justify-content: flex-start;
+     flex-direction: row;
+     align-items: center;
+      width: 543px;
+ }
+ .search {
+     height: 44px;
+     display: flex;
+     align-items: center;
+ }
+ .fa {
+     color: hsla(0,0%,100%,.6);
+     position: relative
+ }
+ .example input[type=text] {
+     padding: 5px;
+     width: 500px;
+     color: hsla(0,0%,100%,.6);
+     background: rgba(138, 136, 136, 0.13);
+     font-weight: 400;
+      font-size: 15px;
+      border: 1px solid rgba(138, 136, 136, 0.13);
+ }
+ 
+ .right {
+    flex-grow: 2;
+     display: flex;
+     justify-content: flex-end;
+     align-items: center;
+     width: 280px;
+     height: 50px;
+     padding: 0px 30px;
+ }
+ .right div {
+     
+     width: 50px;
+     height: 50px;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     font-size: 24px;
+ }
+ .far {
+     font-size: 26px;
+     color:  hsla(0,0%,100%,.6);
+     background:  #36465D;
+     
+ }
+ .right > div > a > img {
+     width:48px;
+     height: 37px;
+     position: relative;
+     top: 5.50px;
+ }
+ .fa-user-alt {
+     color:  hsla(0,0%,100%,.6);
+ }
+ .rightone {
+    display: flex;
+     justify-content: flex-end;
+     align-items: center;
+     margin-right: 10px;
+ }
+ .button {
+   
+     width: 50px;
+     height: 50px;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+ }
+ .btn  {
+    background:#529ecc;
+    width: 45px;
+    height: 32px;
+ 
+ }
+ .fa-pencil-alt {
+     color: black;
+     font-size:24px;
+ }
+.headerone {
+  
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    border-bottom: 1px solid hsl(0, 0%, 40%);
+}
+.nav > a {
+    height: 35px;
+    padding: 0 10px;
+    white-space: nowrap;
+    text-decoration: none;
+    color:  #ffffff99;
+}
+.main {
+   grid-template: 50% 50%;
+   margin: 15px;
+}
+.mainone {
+    max-width: 100%;
+      margin: 0 auto;
+}
+.mainone> div {
+      border: 2px solid rgb(233,171,88);
+   
+    }
+.mainone{
+      display: grid;
+      grid-template-columns: repeat(4, 2fr);
+      grid-gap: 10px;
+      grid-auto-rows: minmax(100px, auto);
+      padding: 20px;
+      
+    }
+    .one {
+      grid-column: 1/ 2;
+      grid-row: 1/3;
+    }
+    .two { 
+      grid-column: 2 / 2;
+      grid-row: 1 / 4;
+    }
+    .three {
+      grid-column: 1;
+      grid-row: 3 /5;
+    }
+    .four {
+      grid-column: 2;
+      grid-row: 4/6;
+    }
+    .five {
+      grid-column: 3;
+      grid-row: 1/5;
+    }
+    .six {
+      grid-column: 2;
+      grid-row: 6/8;
+    }
+    .seven {
+      grid-column:4;
+      grid-row:4/6
+    }
+    .eignt {
+      grid-column:4/5;
+      grid-row:1/4
+    }
